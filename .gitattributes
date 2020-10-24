@@ -10,24 +10,30 @@ namespace std{
             int Menu = console.ReadLine();
             string name = console.ReadLine();
 
+            
+
             Console.WriteLine("Hello World");
             Console.WriteLine("Enter your name: ");
             Console.WriteLine("Hello " + name);
             Console.WriteLine("This is a menu.")
-            Console.WriteLine("Press 1 if you're cool.")
+            Console.WriteLine("Press 1 if you're cool.");
             Console.WriteLine("Don't press 2!");
-            Console.WriteLine("Press 3 and I will guess your favorite car.")
+            Console.WriteLine("Press 3 and I will guess your favorite car.");
+            Console.WriteLine("If you want to exit out of this game, press 4.");
 
             switch(Menu){
                 case 1:
                 Console.ReadLine("You are cool.");
                 break;
                 Case 2: 
-                Console.ReadLine("Too bad you'll never be rad.")
+                Console.ReadLine("Too bad you'll never be rad.");
                 break;
                 Case 3:
-
-
+                Console.ReadLine("Your favorite car is " + );
+                break;
+                Case 4:
+                Console.ReadLine("Have a nice day.");
+                break;
         
             }
         
